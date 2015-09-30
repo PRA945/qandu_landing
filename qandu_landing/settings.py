@@ -27,7 +27,7 @@ SECRET_KEY = 'y+6ypy$#dhk^ra@^i)-#7=$qej01qk6%ut(^1x0@t#rs1s8-#('
 # SECURITY WARNING: don't run with debug turned on in production!
 if ON_HEROKU == True:
     DEBUG = False
-  else:
+else:
     DEBUG = True
 
 ALLOWED_HOSTS = []
